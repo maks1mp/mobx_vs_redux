@@ -7,8 +7,8 @@ function App() {
             <h1 align="center">
                 Redux vs Mobx 2021
             </h1>
-            {/*<ReduxWay />*/}
-            <MobxWay />
+            <ReduxWay />
+            {/*<MobxWay />*/}
         </>
     );
 }

@@ -18,6 +18,14 @@ class Api {
     getPosts() {
         return this.performRequest(`${this.url}/posts`)
     }
+
+    addPost(data) {
+        return this.performRequest(`${this.url}/posts`, 'POST', data)
+    }
+
+    removePost(id) {
+        return this.performRequest(`${this.url}/posts/${id}`, 'DELETE')
+    }
 }
 
 export default new Api()
