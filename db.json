@@ -1,0 +1,119 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post #1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "title": "Post #2",
+      "text": "Lacus sed turpis tincidunt id aliquet. Varius quam quisque id diam vel. Eu feugiat pretium nibh ipsum. Congue eu consequat ac felis donec et. ",
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "title": "Post #3",
+      "text": "Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Ornare suspendisse sed nisi lacus sed viverra tellus in. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. ",
+      "authorId": 1
+    },
+    {
+      "id": 4,
+      "title": "Post #4",
+      "text": "Quis hendrerit dolor magna eget est lorem ipsum dolor. ",
+      "authorId": 1
+    },
+    {
+      "id": 5,
+      "title": "Post #5",
+      "text": "Proin sagittis nisl rhoncus mattis rhoncus urna. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed.",
+      "authorId": 1
+    },
+    {
+      "id": 6,
+      "title": "Post #6",
+      "text": "Orci eu lobortis elementum nibh tellus molestie nunc. Sem viverra aliquet eget sit amet tellus cras adipiscing. ",
+      "authorId": 1
+    },
+    {
+      "id": 7,
+      "title": "Post #7",
+      "text": "Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. ",
+      "authorId": 1
+    },
+    {
+      "id": 8,
+      "title": "Post #8",
+      "text": "Molestie a iaculis at erat pellentesque adipiscing commodo elit at.",
+      "authorId": 1
+    },
+    {
+      "id": 9,
+      "title": "Post #9",
+      "text": "Ac tincidunt vitae semper quis lectus. Senectus et netus et malesuada.",
+      "authorId": 1
+    },
+    {
+      "id": 10,
+      "title": "Post #10",
+      "text": "Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. ",
+      "authorId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "authorId": 1,
+      "authorName": "Maksym Pohribniak",
+      "text": "Comment 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "authorId": 1,
+      "authorName": "Maksym Pohribniak",
+      "text": "Comment 2",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "authorId": 2,
+      "authorName": "John Doe",
+      "text": "Comment 3",
+      "postId": 1
+    },
+    {
+      "id": 4,
+      "authorId": 2,
+      "authorName": "John Doe",
+      "text": "Comment 4",
+      "postId": 1
+    },
+    {
+      "id": 5,
+      "authorId": 3,
+      "authorName": "Jane Doe",
+      "text": "Comment 1",
+      "postId": 2
+    },
+    {
+      "id": 6,
+      "authorId": 4,
+      "authorName": "Boris",
+      "text": "Comment 2",
+      "postId": 2
+    },
+    {
+      "id": 7,
+      "authorId": 5,
+      "authorName": "Doris",
+      "text": "Comment 12",
+      "postId": 4
+    }
+  ],
+  "me": {
+    "id": 1,
+    "name": "Maksym Pohribniak"
+  }
+}
